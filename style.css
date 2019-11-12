@@ -1,0 +1,9 @@
+.color-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.color-card {
+  height: 60vh;
+}

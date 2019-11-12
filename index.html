@@ -1,0 +1,13 @@
+<div id="app" class="container-fluid m-4">
+  <h1 class="text-center md-4">Color Palette Generator</h1>
+    <button 
+      class="btn btn-primary"
+      type="button"
+      v-on:click="generateColors()">
+      Generate Colors
+      </button>
+        <div v-if="display" class="color-cards" >
+          <div class="color-card" v-for="color of colors" v-bind:style="{ background: color }"><p>{{color}}</p></div>
+        </div>
+      
+</div>
